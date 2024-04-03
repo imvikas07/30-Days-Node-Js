@@ -18,13 +18,12 @@
    */
 
 3. **How does it work?**
-   /*
    
+   /*
    Node.js is built on top of Google's V8 JavaScript engine, which is the same engine used in the Google Chrome web browser. 
    It provides a runtime environment for executing JavaScript code outside of the browser. 
    This means that you can write JavaScript code on your computer and run it as a standalone application, 
    similar to how you would run programs written in other languages like Python or Java.
-   
    */
 
 4. **Key Concepts:**
@@ -34,16 +33,17 @@
 
 5. **Getting Started:**
 
-   /*
-   
+   /* 
    To get started with Node.js, you'll need to install it on your computer. You can download and install Node.js from the official website (https://nodejs.org/). 
    Once installed, you can start writing JavaScript code using any text editor, and run it using the Node.js runtime environment from your command line or terminal.
-   
-   /*
+   */
 
- ** In summary **
-     Node.js is a powerful tool that allows you to run JavaScript code on the server-side, opening up new possibilities for building fast, 
-     scalable, and real-time web applications. As a beginner, you can start experimenting with Node.js by writing simple programs, 
-     exploring built-in modules, and gradually building up your knowledge and skills. 
-     There are plenty of resources available online, including tutorials, documentation, 
-     and communities, to help you learn and grow as a Node.js developer
+6. ** In summary:** 
+    /*
+    Node.js is a powerful tool that allows you to run JavaScript code on the server-side, 
+    opening up new possibilities for building fast, scalable, and real-time web applications. 
+    As a beginner, you can start experimenting with Node.js by writing simple programs, 
+    exploring built-in modules, and gradually building up your knowledge and skills. 
+    There are plenty of resources available online, including tutorials, documentation, 
+    and communities, to help you learn and grow as a Node.js developer.
+    */

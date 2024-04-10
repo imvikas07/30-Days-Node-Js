@@ -30,4 +30,37 @@ node hello.js
 Hello, World!
 ```
 
-//That's it! You've just created and executed your first Node.js program. This example demonstrates a simple use case of using `console.log()` to print a message to the console.
+/*
+That's it! You've just created and executed your first Node.js program. 
+This example demonstrates a simple use case of using `console.log()` to print a message to the console.
+*/
+
+//* Interview Questions 
+
+/*
+`console.log()` and `console.warn()` are both methods provided by the `console` object in JavaScript, but they serve slightly different purposes:
+
+1. **console.log()**:
+   - This method is commonly used for general logging purposes.
+   - It prints the provided message or object to the console as a standard log message.
+   - It is typically used to display informational messages, debugging information, or the output of variables or expressions.
+   - Messages logged using `console.log()` are usually displayed with a standard appearance in the console.
+
+Example:
+```javascript
+console.log("This is a standard log message.");
+```
+
+2. **console.warn()**:
+   - This method is specifically used to log warning messages to the console.
+   - It prints the provided message or object to the console as a warning message.
+   - Warning messages are often used to indicate potential issues or areas that require attention in the code.
+   - Messages logged using `console.warn()` are usually displayed with a distinctive appearance in the console, often highlighted to draw attention.
+
+Example:
+```javascript
+console.warn("Warning: This operation may cause unexpected results.");
+```
+
+In summary, `console.log()` is used for general logging purposes, while `console.warn()` is specifically used for logging warning messages. The choice between them depends on the type of message you want to convey and the level of urgency or importance associated with it.
+*/

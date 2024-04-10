@@ -1,5 +1,7 @@
-1. **What is Node.js?**
-   
+1. Introduction to Node.js
+
+**What is Node.js?**
+
    /*
    Node.js is a tool that allows you to run JavaScript code on your computer instead of just in a web browser. 
    This means you can use JavaScript to create programs that run on servers, 

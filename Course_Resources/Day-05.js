@@ -6,27 +6,21 @@ for incoming HTTP requests. Here's a basic example of how to create a simple HTT
 
 */
 
-// Import the http module
-const http = require('http');
+// server.mjs
+import { createServer } from 'node:http';
 
-// Define the hostname and port number
-const hostname = '127.0.0.1'; // localhost
-const port = 3000;
-
-// Create the HTTP server
-const server = http.createServer((req, res) => {
-  // Set the response HTTP header with HTTP status and Content type
-  res.statusCode = 200;
-  res.setHeader('Content-Type', 'text/plain');
-  
-  // Write the response body
-  res.end('Hello, World!\n');
+const server = createServer((req, res) => {
+  res.writeHead(200, { 'Content-Type': 'text/plain' });
+  res.end('Hello World!\n');
 });
 
-// Start the server and listen for incoming connections
-server.listen(port, hostname, () => {
-  console.log(`Server running at http://${hostname}:${port}/`);
+// starts a simple http server locally on port 3000
+server.listen(3000, '127.0.0.1', () => {
+  console.log('Listening on 127.0.0.1:3000');
 });
+
+// run with `node server.mjs`
+
 
 
 //Here's what each part of the code does:
